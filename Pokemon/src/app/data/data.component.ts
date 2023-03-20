@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PokemonService } from '../pokemon.service';
 
 @Component({
   selector: 'app-data',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./data.component.css']
 })
 export class DataComponent {
-
+  
 }
